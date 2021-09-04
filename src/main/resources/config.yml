@@ -1,0 +1,67 @@
+#------------------------------#
+#          CrystalAC           #
+#         By 4Remi#8652        #
+
+# Permissions :
+# crystalac.admin [All Permissions] Not working atm
+# ac.command.acban [Anticheat Ban]
+# ac.command.alerts [Alerts]
+# ac.command.bypass [Bypass Command]
+# ac.command.help [Help]
+# ac.command.help.admin [Admin Help]
+# ac.command.gui [GUI]
+# ac.command.checks [Lists All Checks]
+# ac.command.profile [Shows a users profile]
+# ac.command.version [Version Info]
+# ac.command.info [Server Info + Anticheat Info]
+# ac.command.setvl [Set the ban violation level for a check]
+# ac.command.getvl [Get the ban violation level for a check]
+
+License: YOUR-LICENSE-HERE #Use blackspigot for public license
+
+ban-command: "ban %player% Unfair Advantage -s"
+kick-command: "kick %player% Unfair Advantage -s"
+
+# Punishment Type for CrystalAC Ban/Kick/None
+punishment-type: "BAN"
+# Predefined theme CrystalAC/None
+# /!\ Set to none to use settings below
+theme: "None"
+
+ban-broadcast:
+- '&8&m------------------------------------------'
+- '&b&lCrystalAC &7has detected %player% &7for cheating.'
+- '&c&l(!) &cPlayer has been removed from the network.'
+- '&8&m------------------------------------------'
+
+flag-alerts: "&8[&b&lCrystal&r&8] &7> &b%player% &ffailed &b%check% &7(&fVL: &b%vl%&7)"
+flag-alerts-verbose: "&8[&b&lCrystal&r&8] &7> &b%player% &ffailed &b%check% &7(&fPing: &b%ping%&7) &7(&fInformation: &b%extra%&7)"
+
+
+metrics: false
+
+# Mongo/MySQl/SQLite/None
+database: "none"
+mongo:
+  host: "127.0.0.1"
+  port: 27017
+  database: "anticheat"
+  authentication:
+    enabled: false
+    username: "admin"
+    password: "dev"
+    database: "admin"
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  ssl: true
+  database: "anticheat"
+  authentication:
+    username: "admin"
+    password: "dev"
+    table: "ALERTS"
+
+sqlite:
+  authentication:
+    table: "ALERTS"

@@ -1,0 +1,27 @@
+name: CrystalAC
+author: "4Remi"
+version: 1.0.3
+main: org.crystalpvp.anticheat.CrystalAC
+
+commands:
+  alerts:
+    usage: <command>
+    aliases: [acalert]
+  bypass:
+    usage: <command>
+    aliases: [acbypass]
+  anticheat:
+    usage: <command>
+    aliases: [anticheat]
+  acban:
+    usage: <command>
+    aliases: [forceban]
+  logs:
+    usage: <command>
+    aliases: [aclogs]
+  watch:
+    usage: <command>
+    aliases: [look]
+  exempt:
+    usage: <command>
+    aliases: [acexempt]

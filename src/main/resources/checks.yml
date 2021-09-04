@@ -1,0 +1,675 @@
+
+# +------------------------------------------------------+ #
+# |                       AimAssist                      | #
+# +------------------------------------------------------+ #
+AimAssistA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+AimAssistE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistG:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AimAssistH:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+# +------------------------------------------------------+ #
+# |                      AutoClicker                     | #
+# +------------------------------------------------------+ #
+AutoClickerA:
+  enabled: true
+  maxCps: 18
+  autoBans:
+    enabled: true
+    banVl: 3
+AutoClickerB:
+  enabled: true
+  maxCps: 18
+  autoBans:
+    enabled: true
+    banVl: 3
+AutoClickerC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 3
+AutoClickerD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 4
+AutoClickerE:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+AutoClickerF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 6
+AutoClickerG:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+AutoClickerH:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+AutoClickerI:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+AutoClickerJ:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 15
+AutoClickerK:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+AutoClickerL:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AutoClickerM:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AutoClickerN:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+AutoClickerO:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+# +------------------------------------------------------+ #
+# |                      BadPackets                      | #
+# +------------------------------------------------------+ #
+BadPacketsA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 0
+BadPacketsB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 0
+BadPacketsC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsG:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsH:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsI:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+BadPacketsJ:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+BadPacketsK:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+# +------------------------------------------------------+ #
+# |                      Blink                           | #
+# +------------------------------------------------------+ #
+BlinkA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                     FastBow                          | #
+# +------------------------------------------------------+ #
+FastBowA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                     FastBreak                        | #
+# +------------------------------------------------------+ #
+FastBreakA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+# +------------------------------------------------------+ #
+# |                    FastRefill                        | #
+# +------------------------------------------------------+ #
+FastRefillA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                         Fly                          | #
+# +------------------------------------------------------+ #
+FlyA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 8
+FlyB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 8
+FlyC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+FlyD:
+  enabled: true
+  flyPermission:
+    - 'core.command.fly'
+  autoBans:
+    enabled: true
+    banVl: 5
+FlyE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+FlyF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+FlyG:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+FlyH:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+FlyI:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+FlyJ:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+FlyK:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+# +------------------------------------------------------+ #
+# |                      HitBox                          | #
+# +------------------------------------------------------+ #
+HitBoxA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                      Inventory                       | #
+# +------------------------------------------------------+ #
+InventoryA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+InventoryB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+InventoryC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+InventoryD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+# +------------------------------------------------------+ #
+# |                        Jesus                         | #
+# +------------------------------------------------------+ #
+JesusA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 15
+JesusB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+JesusC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+JesusD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+# +------------------------------------------------------+ #
+# |                       KillAura                       | #
+# +------------------------------------------------------+ #
+KillAuraA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+KillAuraB:
+  enabled: false
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+KillAuraD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+KillAuraF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraG:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+KillAuraH:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraI:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraJ:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraK:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraL:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraM:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraN:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+KillAuraO:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraP:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraQ:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraR:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+KillAuraS:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 2
+# +------------------------------------------------------+ #
+# |                       NoFall                         | #
+# +------------------------------------------------------+ #
+NoFallA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+NoFallB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 5
+NoFallC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+NoFallD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+NoFallE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+# +------------------------------------------------------+ #
+# |                     NoSlowDown                       | #
+# +------------------------------------------------------+ #
+NoSlowDownA:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+NoSlowDownB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+# +------------------------------------------------------+ #
+# |                         Phase                        | #
+# +------------------------------------------------------+ #
+PhaseA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+PhaseB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+# +------------------------------------------------------+ #
+# |                         Ping                         | #
+# +------------------------------------------------------+ #
+PingSpoofA:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+# +------------------------------------------------------+ #
+# |                         HeadRotations                | #
+# +------------------------------------------------------+ #
+HeadRotationsA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                         Range                        | #
+# +------------------------------------------------------+ #
+RangeA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 50
+RangeB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+RangeC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+RangeD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+RangeE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+RangeF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+RangeG:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 30
+# +------------------------------------------------------+ #
+# |                     Scaffold                         | #
+# +------------------------------------------------------+ #
+ScaffoldA:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+ScaffoldB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+ScaffoldC:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+# +------------------------------------------------------+ #
+# |                         Step                         | #
+# +------------------------------------------------------+ #
+StepA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+StepB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+StepC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+StepD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                         Timer                        | #
+# +------------------------------------------------------+ #
+TimerA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 50
+TimerB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 50
+TimerC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                         VClip                        | #
+# +------------------------------------------------------+ #
+VClipA:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+VClipB:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+# +------------------------------------------------------+ #
+# |                       Velocity                       | #
+# +------------------------------------------------------+ #
+VelocityA:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+VelocityB:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 15
+VelocityC:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+VelocityD:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 20
+VelocityE:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+VelocityF:
+  enabled: true
+  autoBans:
+    enabled: true
+    banVl: 10
+# +------------------------------------------------------+ #
+# |                         WTap                         | #
+# +------------------------------------------------------+ #
+WTapA:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+WTapB:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+# +------------------------------------------------------+ #
+# |                         Speed                        | #
+# +------------------------------------------------------+ #
+SpeedA:
+  enabled: false
+  autoBans:
+    enabled: false
+    banVl: 99
+SpeedB:
+  enabled: false
+  autoBans:
+    enabled: false
+    banVl: 99
+SpeedC:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
+SpeedD:
+  enabled: true
+  autoBans:
+    enabled: false
+    banVl: 99
