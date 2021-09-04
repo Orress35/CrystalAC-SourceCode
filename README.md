@@ -1,6 +1,6 @@
 **What is this repo ?**
 
-This is the sourcecode of CrystalAC, a premium product that buy for 10 US Dollars on Polymart - https://polymart.org/resource/crystalac-foxspigot-1-8-8.1403
+This is the sourcecode of CrystalAC, a premium product that you can buy for 10 US Dollars on Polymart - https://polymart.org/resource/crystalac-foxspigot-1-8-8.1403
 
 **Why this is being released ?**
 
