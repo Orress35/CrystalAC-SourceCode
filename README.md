@@ -13,3 +13,5 @@ Just compare code of it with src of Verus/AGC, for example some range checks are
 also https://gyazo.com/679ad929df9c95befd90967cbaaaa495
 
 but https://cdn.discordapp.com/attachments/623266260804698113/883745877657800724/unknown.png
+
+nut
